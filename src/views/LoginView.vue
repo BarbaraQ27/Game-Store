@@ -1,7 +1,3 @@
-<script setup>
-const icons = ['mdi-github', 'mdi-linkedin']
-</script>
-
 <template>
   <div class="container-fluid">
     <h1>Login</h1>
@@ -72,11 +68,13 @@ const icons = ['mdi-github', 'mdi-linkedin']
   <v-footer class="text-center d-flex flex-column">
     <div class="d-flex ga-2">
       <v-btn
-        v-for="icon in icons"
+        class="github-btn"
         :key="icon"
-        :icon="icon"
+        prepend-icon="mdi-github"
         density="comfortable"
         variant="text"
+        href="https://github.com/BarbaraQ27/Game-List"
+        target="_blank"
       ></v-btn>
     </div>
 
@@ -250,5 +248,9 @@ h1 {
 .v-footer {
   background: none;
   margin-top: -9vh;
+}
+.github-btn {
+  font-size: 25px;
+  text-decoration: none;
 }
 </style>
