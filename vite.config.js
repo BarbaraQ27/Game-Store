@@ -14,7 +14,7 @@ export default defineConfig({
     vueDevTools(),
     githubPagesSpa({
       // Options are optional
-      // verbose: true, // Set to false to disable console logs
+      // injectScript: true,
     }),
   ],
 
