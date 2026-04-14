@@ -2,6 +2,13 @@
 
 This template should help get you started developing with Vue 3 in Vite.
 
+## API copyright
+
+```sh
+The use of data from the API is for personal use only. All rights belong to its source: https://rawg.io/.
+It is recommended to obtain an API key from their official website: https://rawg.io/apidocs.
+```
+
 ## Recommended IDE Setup
 
 [VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
@@ -18,6 +25,7 @@ This template should help get you started developing with Vue 3 in Vite.
 ## Customize configuration
 
 See [Vite Configuration Reference](https://vite.dev/config/).
+
 
 ## Project Setup
 
