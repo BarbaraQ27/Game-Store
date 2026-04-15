@@ -1,5 +1,7 @@
 # Game Store
 
+[![Open Demo](https://github.com/codespaces/badge.svg)](https://barbaraq27.github.io/Game-Store/)
+
 This template should help get you started developing with Vue 3 in Vite.
 
 ## API copyright
