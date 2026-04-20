@@ -139,7 +139,8 @@ export default {
   background-position: left;
 }
 h1 {
-  margin: 20vh 0 0 25vw;
+  margin: 20vh 0 0 20vw;
+  align-items: center;
   color: #fff;
   text-shadow:
     0 0 2px #fff,
@@ -151,6 +152,7 @@ h1 {
 }
 .form {
   display: flex;
+  min-width: 320px;
   flex-direction: column;
   border-radius: 5px;
   padding: 32px 40px;
